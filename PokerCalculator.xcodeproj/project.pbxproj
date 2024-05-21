@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255865F42BFD281600BA2497 /* PokerCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */; };
+		255865F62BFD281600BA2497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255865F52BFD281600BA2497 /* ContentView.swift */; };
+		255865F82BFD281800BA2497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255865F72BFD281800BA2497 /* Assets.xcassets */; };
+		255865FB2BFD281800BA2497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255865FA2BFD281800BA2497 /* Preview Assets.xcassets */; };
+		255866052BFD281800BA2497 /* PokerCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866042BFD281800BA2497 /* PokerCalculatorTests.swift */; };
+		2558660F2BFD281800BA2497 /* PokerCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2558660E2BFD281800BA2497 /* PokerCalculatorUITests.swift */; };
+		255866112BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255866012BFD281800BA2497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255865E82BFD281600BA2497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255865EF2BFD281600BA2497;
+			remoteInfo = PokerCalculator;
+		};
+		2558660B2BFD281800BA2497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255865E82BFD281600BA2497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255865EF2BFD281600BA2497;
+			remoteInfo = PokerCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255865F02BFD281600BA2497 /* PokerCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorApp.swift; sourceTree = "<group>"; };
+		255865F52BFD281600BA2497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		255865F72BFD281800BA2497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255865FA2BFD281800BA2497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255866002BFD281800BA2497 /* PokerCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255866042BFD281800BA2497 /* PokerCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorTests.swift; sourceTree = "<group>"; };
+		2558660A2BFD281800BA2497 /* PokerCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2558660E2BFD281800BA2497 /* PokerCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorUITests.swift; sourceTree = "<group>"; };
+		255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255865ED2BFD281600BA2497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255865FD2BFD281800BA2497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255866072BFD281800BA2497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255865E72BFD281600BA2497 = {
+			isa = PBXGroup;
+			children = (
+				255865F22BFD281600BA2497 /* PokerCalculator */,
+				255866032BFD281800BA2497 /* PokerCalculatorTests */,
+				2558660D2BFD281800BA2497 /* PokerCalculatorUITests */,
+				255865F12BFD281600BA2497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255865F12BFD281600BA2497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255865F02BFD281600BA2497 /* PokerCalculator.app */,
+				255866002BFD281800BA2497 /* PokerCalculatorTests.xctest */,
+				2558660A2BFD281800BA2497 /* PokerCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255865F22BFD281600BA2497 /* PokerCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */,
+				255865F52BFD281600BA2497 /* ContentView.swift */,
+				255865F72BFD281800BA2497 /* Assets.xcassets */,
+				255865F92BFD281800BA2497 /* Preview Content */,
+			);
+			path = PokerCalculator;
+			sourceTree = "<group>";
+		};
+		255865F92BFD281800BA2497 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255865FA2BFD281800BA2497 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255866032BFD281800BA2497 /* PokerCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				255866042BFD281800BA2497 /* PokerCalculatorTests.swift */,
+			);
+			path = PokerCalculatorTests;
+			sourceTree = "<group>";
+		};
+		2558660D2BFD281800BA2497 /* PokerCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2558660E2BFD281800BA2497 /* PokerCalculatorUITests.swift */,
+				255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */,
+			);
+			path = PokerCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255865EF2BFD281600BA2497 /* PokerCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255866142BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculator" */;
+			buildPhases = (
+				255865EC2BFD281600BA2497 /* Sources */,
+				255865ED2BFD281600BA2497 /* Frameworks */,
+				255865EE2BFD281600BA2497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerCalculator;
+			productName = PokerCalculator;
+			productReference = 255865F02BFD281600BA2497 /* PokerCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255865FF2BFD281800BA2497 /* PokerCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255866172BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculatorTests" */;
+			buildPhases = (
+				255865FC2BFD281800BA2497 /* Sources */,
+				255865FD2BFD281800BA2497 /* Frameworks */,
+				255865FE2BFD281800BA2497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255866022BFD281800BA2497 /* PBXTargetDependency */,
+			);
+			name = PokerCalculatorTests;
+			productName = PokerCalculatorTests;
+			productReference = 255866002BFD281800BA2497 /* PokerCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255866092BFD281800BA2497 /* PokerCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2558661A2BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculatorUITests" */;
+			buildPhases = (
+				255866062BFD281800BA2497 /* Sources */,
+				255866072BFD281800BA2497 /* Frameworks */,
+				255866082BFD281800BA2497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2558660C2BFD281800BA2497 /* PBXTargetDependency */,
+			);
+			name = PokerCalculatorUITests;
+			productName = PokerCalculatorUITests;
+			productReference = 2558660A2BFD281800BA2497 /* PokerCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255865E82BFD281600BA2497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					255865EF2BFD281600BA2497 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					255865FF2BFD281800BA2497 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 255865EF2BFD281600BA2497;
+					};
+					255866092BFD281800BA2497 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 255865EF2BFD281600BA2497;
+					};
+				};
+			};
+			buildConfigurationList = 255865EB2BFD281600BA2497 /* Build configuration list for PBXProject "PokerCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255865E72BFD281600BA2497;
+			productRefGroup = 255865F12BFD281600BA2497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255865EF2BFD281600BA2497 /* PokerCalculator */,
+				255865FF2BFD281800BA2497 /* PokerCalculatorTests */,
+				255866092BFD281800BA2497 /* PokerCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255865EE2BFD281600BA2497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255865FB2BFD281800BA2497 /* Preview Assets.xcassets in Resources */,
+				255865F82BFD281800BA2497 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255865FE2BFD281800BA2497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255866082BFD281800BA2497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255865EC2BFD281600BA2497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255865F62BFD281600BA2497 /* ContentView.swift in Sources */,
+				255865F42BFD281600BA2497 /* PokerCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255865FC2BFD281800BA2497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255866052BFD281800BA2497 /* PokerCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255866062BFD281800BA2497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255866112BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift in Sources */,
+				2558660F2BFD281800BA2497 /* PokerCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255866022BFD281800BA2497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255865EF2BFD281600BA2497 /* PokerCalculator */;
+			targetProxy = 255866012BFD281800BA2497 /* PBXContainerItemProxy */;
+		};
+		2558660C2BFD281800BA2497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255865EF2BFD281600BA2497 /* PokerCalculator */;
+			targetProxy = 2558660B2BFD281800BA2497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		255866122BFD281800BA2497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255866132BFD281800BA2497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255866152BFD281800BA2497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255866162BFD281800BA2497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255866182BFD281800BA2497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerCalculator";
+			};
+			name = Debug;
+		};
+		255866192BFD281800BA2497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerCalculator";
+			};
+			name = Release;
+		};
+		2558661B2BFD281800BA2497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerCalculator;
+			};
+			name = Debug;
+		};
+		2558661C2BFD281800BA2497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RN59Y952V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajlulla.PokerCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255865EB2BFD281600BA2497 /* Build configuration list for PBXProject "PokerCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255866122BFD281800BA2497 /* Debug */,
+				255866132BFD281800BA2497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255866142BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255866152BFD281800BA2497 /* Debug */,
+				255866162BFD281800BA2497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255866172BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255866182BFD281800BA2497 /* Debug */,
+				255866192BFD281800BA2497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2558661A2BFD281800BA2497 /* Build configuration list for PBXNativeTarget "PokerCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2558661B2BFD281800BA2497 /* Debug */,
+				2558661C2BFD281800BA2497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255865E82BFD281600BA2497 /* Project object */;
+}
