@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		255865F42BFD281600BA2497 /* PokerCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */; };
-		255865F62BFD281600BA2497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255865F52BFD281600BA2497 /* ContentView.swift */; };
 		255865F82BFD281800BA2497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255865F72BFD281800BA2497 /* Assets.xcassets */; };
 		255865FB2BFD281800BA2497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255865FA2BFD281800BA2497 /* Preview Assets.xcassets */; };
 		255866052BFD281800BA2497 /* PokerCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866042BFD281800BA2497 /* PokerCalculatorTests.swift */; };
 		2558660F2BFD281800BA2497 /* PokerCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2558660E2BFD281800BA2497 /* PokerCalculatorUITests.swift */; };
 		255866112BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */; };
+		2558661F2BFD29B600BA2497 /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2558661E2BFD29B600BA2497 /* GamesListView.swift */; };
+		255866222BFD29D400BA2497 /* GamesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866212BFD29D400BA2497 /* GamesListCell.swift */; };
+		255866242BFD29F600BA2497 /* GamesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866232BFD29F600BA2497 /* GamesListViewModel.swift */; };
+		255866272BFD2AAC00BA2497 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866262BFD2AAC00BA2497 /* Game.swift */; };
+		255866292BFD2AB300BA2497 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255866282BFD2AB300BA2497 /* Player.swift */; };
+		2573DA222BFFC00B005CE842 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573DA212BFFC00B005CE842 /* GameData.swift */; };
+		25A858D92BFE7BAF00DC2234 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A858D82BFE7BAF00DC2234 /* AddGameView.swift */; };
+		25A858DC2BFE7E7100DC2234 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A858DB2BFE7E7100DC2234 /* GameView.swift */; };
+		25A858DE2BFE7EA400DC2234 /* GameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A858DD2BFE7EA400DC2234 /* GameViewCell.swift */; };
+		25A858E02BFE7ED400DC2234 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A858DF2BFE7ED400DC2234 /* AddPlayerView.swift */; };
+		25A858E22BFE83F900DC2234 /* SettleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A858E12BFE83F900DC2234 /* SettleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		255865F02BFD281600BA2497 /* PokerCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorApp.swift; sourceTree = "<group>"; };
-		255865F52BFD281600BA2497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		255865F72BFD281800BA2497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		255865FA2BFD281800BA2497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		255866002BFD281800BA2497 /* PokerCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		2558660A2BFD281800BA2497 /* PokerCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2558660E2BFD281800BA2497 /* PokerCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorUITests.swift; sourceTree = "<group>"; };
 		255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2558661E2BFD29B600BA2497 /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
+		255866212BFD29D400BA2497 /* GamesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListCell.swift; sourceTree = "<group>"; };
+		255866232BFD29F600BA2497 /* GamesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewModel.swift; sourceTree = "<group>"; };
+		255866262BFD2AAC00BA2497 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		255866282BFD2AB300BA2497 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2573DA212BFFC00B005CE842 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		25A858D82BFE7BAF00DC2234 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		25A858DB2BFE7E7100DC2234 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		25A858DD2BFE7EA400DC2234 /* GameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewCell.swift; sourceTree = "<group>"; };
+		25A858DF2BFE7ED400DC2234 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		25A858E12BFE83F900DC2234 /* SettleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,9 @@
 		255865F22BFD281600BA2497 /* PokerCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				255866252BFD2AA200BA2497 /* Model */,
+				2558661D2BFD292600BA2497 /* Views */,
 				255865F32BFD281600BA2497 /* PokerCalculatorApp.swift */,
-				255865F52BFD281600BA2497 /* ContentView.swift */,
 				255865F72BFD281800BA2497 /* Assets.xcassets */,
 				255865F92BFD281800BA2497 /* Preview Content */,
 			);
@@ -125,6 +146,47 @@
 				255866102BFD281800BA2497 /* PokerCalculatorUITestsLaunchTests.swift */,
 			);
 			path = PokerCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		2558661D2BFD292600BA2497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25A858DA2BFE7E5600DC2234 /* GameView */,
+				255866202BFD29BF00BA2497 /* GamesListView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		255866202BFD29BF00BA2497 /* GamesListView */ = {
+			isa = PBXGroup;
+			children = (
+				25A858D82BFE7BAF00DC2234 /* AddGameView.swift */,
+				2558661E2BFD29B600BA2497 /* GamesListView.swift */,
+				255866212BFD29D400BA2497 /* GamesListCell.swift */,
+				255866232BFD29F600BA2497 /* GamesListViewModel.swift */,
+			);
+			path = GamesListView;
+			sourceTree = "<group>";
+		};
+		255866252BFD2AA200BA2497 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				255866262BFD2AAC00BA2497 /* Game.swift */,
+				255866282BFD2AB300BA2497 /* Player.swift */,
+				2573DA212BFFC00B005CE842 /* GameData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25A858DA2BFE7E5600DC2234 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				25A858DB2BFE7E7100DC2234 /* GameView.swift */,
+				25A858DD2BFE7EA400DC2234 /* GameViewCell.swift */,
+				25A858DF2BFE7ED400DC2234 /* AddPlayerView.swift */,
+				25A858E12BFE83F900DC2234 /* SettleView.swift */,
+			);
+			path = GameView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +253,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					255865EF2BFD281600BA2497 = {
 						CreatedOnToolsVersion = 15.4;
@@ -257,8 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				255865F62BFD281600BA2497 /* ContentView.swift in Sources */,
+				2558661F2BFD29B600BA2497 /* GamesListView.swift in Sources */,
+				2573DA222BFFC00B005CE842 /* GameData.swift in Sources */,
+				255866272BFD2AAC00BA2497 /* Game.swift in Sources */,
+				255866242BFD29F600BA2497 /* GamesListViewModel.swift in Sources */,
 				255865F42BFD281600BA2497 /* PokerCalculatorApp.swift in Sources */,
+				25A858DE2BFE7EA400DC2234 /* GameViewCell.swift in Sources */,
+				25A858E02BFE7ED400DC2234 /* AddPlayerView.swift in Sources */,
+				255866292BFD2AB300BA2497 /* Player.swift in Sources */,
+				255866222BFD29D400BA2497 /* GamesListCell.swift in Sources */,
+				25A858E22BFE83F900DC2234 /* SettleView.swift in Sources */,
+				25A858DC2BFE7E7100DC2234 /* GameView.swift in Sources */,
+				25A858D92BFE7BAF00DC2234 /* AddGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,17 +491,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokerCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RN59Y952V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Poker Balance Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,17 +524,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokerCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RN59Y952V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Poker Balance Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,7 +555,6 @@
 		255866182BFD281800BA2497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,7 +574,6 @@
 		255866192BFD281800BA2497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +593,6 @@
 		2558661B2BFD281800BA2497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RN59Y952V;
@@ -533,7 +610,6 @@
 		2558661C2BFD281800BA2497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5RN59Y952V;

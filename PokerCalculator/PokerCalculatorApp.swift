@@ -11,7 +11,7 @@ import SwiftUI
 struct PokerCalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GamesListView()
         }
     }
 }
