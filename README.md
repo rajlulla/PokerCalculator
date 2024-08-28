@@ -5,3 +5,7 @@ The Poker Balance Calculator iOS app does not collect any user data of any kind.
 It is just a calculator.
 
 If you wish to verify this for yourself, see the source code at https://github.com/rajlulla/PokerCalculator.
+
+# Support information for the Poker Balance Calculator iOS app
+
+Please reach out to roraj19@gmail.com for any support related to the app.
